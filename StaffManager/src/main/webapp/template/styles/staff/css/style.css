@@ -1,0 +1,26 @@
+.st--home-wapper{
+	height: calc(100vh - 180px);
+	display:flex;
+	flex-direction: column;
+    justify-content: center;
+}
+.row--home{
+	height: 50%;
+}
+.col--image{
+	height: 100%;
+}
+.col--infor{
+	display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mr-20{
+	margin-right: 20px;
+}
+.h4--hello{
+	font-weight: 700;
+}
+.font-size-lg{
+	font-size: larger;
+}

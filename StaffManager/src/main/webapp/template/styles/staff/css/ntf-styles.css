@@ -1,0 +1,6 @@
+.ntf-d-content label {
+	display: flex;
+	justify-content: end;
+	font-family: italic;
+	font-style: italic;
+}

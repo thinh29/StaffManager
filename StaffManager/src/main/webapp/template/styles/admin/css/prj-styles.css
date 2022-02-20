@@ -1,0 +1,137 @@
+.search-projects {
+	position: relative;
+}
+
+.prj-search-btn {
+	top: 50%;
+	position: absolute;
+	right: 0;
+	padding: 10px;
+	transform: translateY(-50%);
+}
+
+.prj-search-btn:focus {
+	box-shadow: none;
+}
+
+.prj-btns-func {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.prj-btn-func {
+	color: #fff;
+	padding: 5px 10px;
+	margin: auto 10px;
+	border-radius: 5px;
+	font-size: smaller;
+}
+
+.prj-btn-func:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.prj-btn-add {
+	background-color: #00c506;
+	border: 0;
+}
+
+.prj-btn-add:focus {
+	box-shadow: none;
+}
+
+.prj-btn-add:hover {
+	background-color: #048f08;
+}
+
+.prj-btn-delete {
+	background-color: #e51c1c;
+}
+
+.prj-btn-delete:hover {
+	background-color: #c70707;
+}
+
+.prj-btn-edit {
+	background-color: #3a57ff;
+}
+
+.prj-btn-edit:hover {
+	background-color: #0b30ff;
+}
+
+.prj-btn-view {
+	background-color: #c0c0c0;
+}
+
+.prj-btn-view:hover {
+	background-color: #9e9b9b;
+}
+
+#dataTable thead tr th.prj-tb-stt-col, #dataTable tfoot tr th.prj-tb-stt-col
+	{
+	width: 42px;
+}
+
+#dataTable thead tr th.prj-tb-done-col, #dataTable tfoot tr th.prj-tb-done-col
+	{
+	width: 120px;
+}
+
+#dataTable thead tr th.prj-tb-date-col, #dataTable tfoot tr th.prj-tb-date-col
+	{
+	width: 120px;
+}
+
+#dataTable thead tr th.prj-tb-detail-col, #dataTable tfoot tr th.prj-tb-detail-col
+	{
+	width: 380px;
+}
+
+#dataTable thead tr th.prj-tb-name-col, #dataTable tfoot tr th.prj-tb-name-col
+	{
+	width: 400px;
+}
+
+#dataTable thead tr th.prj-tb-assign-col, #dataTable tfoot tr th.prj-tb-assign-col
+	{
+	width: 150px;
+}
+
+#dataTable th {
+	text-align: center;
+}
+
+#dataTable td, th {
+	vertical-align: middle !important;
+}
+
+.prj-bg-prsbar {
+	width: 100px;
+	background-color: #9e9b9b;
+}
+
+.prj-prsbar-ps {
+	background-color: #00c506;
+	display: flex;
+}
+
+.prj-prsbar-ps span {
+	color: #fff;
+	padding: 5px;
+}
+
+.prj-bg-lzload {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 9999;
+	display:none;
+	top: 0;
+	right: 0;
+	background-color: #0000005e;
+	flex-direction: column;
+    justify-content: center;
+}
+

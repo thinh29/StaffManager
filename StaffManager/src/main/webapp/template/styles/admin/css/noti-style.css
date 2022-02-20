@@ -1,0 +1,11 @@
+.noti-form
+{
+	border: 1px solid #d1d3e2;
+	border-radius: .35rem;
+}
+
+.tox-notifications-container{
+	display:none;	
+}
+
+a:hover {text-decoration: none;}
